@@ -91,7 +91,8 @@ def bkapp(doc):
 
 @app.route('/', methods=['GET'])
 def bkapp_page():
-    script = server_document('http://localhost:5006/bkapp')
+    script = server_document('https://desolate-island-86478.herokuapp.com/bkapp')
+    # script = server_document()
     return render_template("embed.html", script=script, template="Flask")
 
 
