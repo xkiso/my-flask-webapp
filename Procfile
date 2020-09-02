@@ -1,1 +1,1 @@
-web: bokeh serve —-port=$PORT --num-procs=0 --allow-websocket-origin=fierce-springs-10510.herokuapp.com --address=0.0.0.0 --use-xheaders app
+web: bokeh serve —-port=$PORT app.py
