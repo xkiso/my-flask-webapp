@@ -1,2 +1,8 @@
-gunicorn==19.9.0
-requests==2.20.0
+pandas
+bokeh
+thread
+Flask
+tornado
+request
+datetime
+bokeh
