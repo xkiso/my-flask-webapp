@@ -6,3 +6,4 @@ requests
 datetime
 bokeh
 pip
+gunicorn
