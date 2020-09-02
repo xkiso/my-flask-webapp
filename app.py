@@ -17,7 +17,6 @@ from bokeh.themes import Theme
 
 app = Flask(__name__)
 
-print("HI")
 
 def bkapp(doc):
     def callback(attrname, old, new):
@@ -91,7 +90,7 @@ def bkapp(doc):
 
 @app.route('/', methods=['GET'])
 def bkapp_page():
-    script = server_document('https://cors-anywhere.herokuapp.com/'+'http://localhost:5006/bkapp')
+    script = server_document('https://localhost:5006/bkapp')
     # script = server_document()
     return render_template("embed.html", script=script, template="Flask")
 
