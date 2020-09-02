@@ -2,7 +2,7 @@ pandas
 bokeh
 Flask
 tornado
-request
+requests
 datetime
 bokeh
 pip
