@@ -1,3 +1,5 @@
+pip install -r conda-requirements.txt
+
 import pandas as pd
 from threading import Thread
 from flask import Flask,render_template,request,redirect
